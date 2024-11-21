@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&display=swap");
+.heading {
+  font-size: 5rem;
+  width: 100%;
+  font-family: "bebas neue", "cursive";
+  text-align: start;
+  margin: 5px;
+}
+.description {
+  font-family: "Nunito";
+}
+.col-12 {
+  img {
+    border-radius: 20px;
+  }
+}
+.contact-btn {
+    background-color: #d3e97a;
+    font-family: "Exo", sans-serif;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    padding: 10.5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.3s ease-in-out;
+    gap: 20px;
+    margin-top: 10px;
+  
+    .fontIcon {
+      padding-top: 5px;
+      width: 8px;
+      transition: 0.3s ease-in-out;
+      margin-right: 10px;
+  
+      &:hover {
+        width: 20px;  // This will now work correctly
+      }
+    }
+  
+    &:hover {
+      .fontIcon {
+        width: 20px;  // This also ensures that the icon grows when the button is hovered
+      }
+    }
+  }
+  

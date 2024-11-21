@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .logo{
+    font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+    color: #fff;
+  }
+  ul{
+    li{
+        a{
+            color: #fff;
+        }
+    }
+  }
+  .toggler-iconn{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-toggler{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    &active{
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+    &focus{
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+  }
